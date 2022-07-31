@@ -141,6 +141,7 @@ function postWeather(data)
  }
 }
 
+
 function resize(i)
 {
     console.log("in")
