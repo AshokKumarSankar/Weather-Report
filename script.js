@@ -21,6 +21,7 @@ function search()
     document.getElementById("city").value=""
     getWeather();
 }
+
 function getWeather(){
     
  fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=b8bfa3230a6aa312296f65bd45a4e0a3`)
@@ -158,3 +159,5 @@ function resize(i)
         innerCard.style.display = 'none';
     }
 }
+
+
